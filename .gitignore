@@ -172,3 +172,41 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Unused data files
+data/.DS_Store
+data/CHEM_profiles.zip
+data/CHEM_profiles/CHEM-ADleo-0.856-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-F0V-1.107-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-F2V-1.093-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-F5V-1.058-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-F8V-1.038-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-G0V-1.018-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-G5V-0.997-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-G8V-0.977-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-K0V-0.958-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-K2V-0.921-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-K4V-0.906-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-K5V-0.891-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-K7V-0.878-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-PCen-0.831-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-Sun-1.000-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM-Trap1-0.819-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/CHEM_profiles/CHEM_units.0bar
+data/PTprofile.zip
+data/PTprofile/PTprofile-ADleo-0.856-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-F0V-1.107-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-F2V-1.093-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-F5V-1.058-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-F8V-1.038-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-G0V-1.018-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-G5V-0.997-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-G8V-0.977-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-K0V-0.958-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-K2V-0.921-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-K4V-0.906-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-K5V-0.891-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-K7V-0.878-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-PCen-0.831-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile-Trap1-0.819-FGKM_SRFALB_Earth0.5630_Cloud0.4370-1.0bar.txt
+data/PTprofile/PTprofile_units.0bar
