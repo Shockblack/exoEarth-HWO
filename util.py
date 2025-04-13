@@ -16,9 +16,17 @@ def convert_csv_to_txt(input_dir, output_dir):
             # Read the CSV file and skip the header
             data = np.loadtxt(input_file_path, delimiter=',', skiprows=1)
 
+            # Check if reflection data is bound between 0 and 1
+            # If not, divide the albedo by 100
+            if np.max(data[:, 1]) > 1:
+                data[:, 1] /= 100
+            
+            # Sort data so that wavelengths are in ascending order
+            data = data[np.argsort(data[:, 0])]
+
             # Save the data as a whitespace-separated text file with :.3e format
             np.savetxt(output_file_path, data, delimiter=' ', fmt='%.3e')
             print(f"Converted {input_file_path} to {output_file_path}")
 
 if __name__ == "__main__":
-    # convert_csv_to_txt('/data/azelakiewicz/Documents/exoEarth-HWO/data/surfaces', '/data/azelakiewicz/Documents/exoEarth-HWO/data/surfaces_txt')
+    convert_csv_to_txt('/data/azelakiewicz/Documents/exoEarth-HWO/data/surfaces', '/data/azelakiewicz/Documents/exoEarth-HWO/data/surfaces_txt')
